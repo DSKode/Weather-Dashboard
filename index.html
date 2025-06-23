@@ -1,38 +1,37 @@
-<!DOCTYPE html> <!--Tells the browser this is an HTML5 document.-->
-<html lang="en"> <!--Tells browsers and screen readers the language is English.
+<!DOCTYPE html> 
+<html lang="en"> 
 
 -->
-<head> <!--This section holds information about the page (not visible on the page).-->
-    <meta charset="UTF-8"> <!--Sets character encoding text (like accents or symbols) shows up properly.-->
-    <!--Makes the page responsive (looks good on phones and tablets).-->
+<head> 
+    <meta charset="UTF-8"> 
+  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Sets the name shown on the browser tab.-->
+   
     <title>Weather Dashboard</title>
-    <!--Connects your HTML to your CSS file.-->
+  
     <link rel="stylesheet" href="style.css">
 </head>
 
-<!--Everything inside the <body> is visible on the page, actual content-->
+
 <body>
 
-    <!--A big heading for the title of your page.-->
+    
     <h1>Weather Dashboard</h1>
 
-    <!--A container that holds your weather app elements.-->
+   
     <div id="app">
 
-        <!--Helps group and style all parts of your app together.
-        placeholder: Shows grey text inside the box to tell users what to type.-->
+       
+      
         <input type="text" id="cityInput" placeholder="Type city here">
         
-        <!--A button the user clicks to get the weather info.-->
+      
         <button id="getWeatherBtn">Get Weather</button>
 
-        <!--A small message shown only while the app is loading data.-->
+     
         <div id="loading" style="display:none;">Please wait...</div>
         
-        <!--to display the weather results from the API.
-        JavaScript will add content here (temperature, weather icon, etc.).-->
+       
         <div id="weatherDisplay"></div>
     </div>
 
