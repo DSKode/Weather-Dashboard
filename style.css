@@ -1,56 +1,54 @@
 h1 {
-    font-size: 2em; /* Larger size for visibility */
-    color: #0d1857; /* Dark gray color */
+    font-size: 2em; 
+    color: #0d1857; 
     font-weight: bold;
-    text-align: center; /* Center-align the text */
-    text-transform: uppercase; /* Make the text uppercase */
-    position: absolute; /* Position it at the top */
-    top: 40px; /* Adjust to place it a bit down from the top of the page */
-    width: 100%; /* Ensure it takes full width */
-    left: 0; /* Align to the left of the screen */
-    z-index: 1; /* Ensure it appears above the other elements */
+    text-align: center; 
+    text-transform: uppercase;
+    position: absolute; 
+    top: 40px; 
+    width: 100%; 
+    left: 0; 
+    z-index: 1; 
 }
 
 
 body {
-    font-family: Arial, sans-serif; /* Sets the text style to Arial for the whole page */
-    /*background: linear-gradient(to bottom, #87ceeb, #f0f8ff);*/ /* (old) Gradient background */
-    background: url('default.jpg') no-repeat center center fixed; /* Shows a full-page background image */
-    background-size: cover; /* Makes the image fill the whole screen nicely */
-    min-height: 100vh; /* Makes sure the body is at least the full height of the screen */
-    display: flex; /* Uses flexbox for easy centering */
-    justify-content: center; /* Centers content horizontally */
-    align-items: center; /* Centers content vertically */
-    /*transition: background-color 1s ease;*/ /* (optional) Smooth color change effect */
+    font-family: Arial, sans-serif; 
+    background: url('default.jpg') no-repeat center center fixed; 
+    background-size: cover; 
+    min-height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 #app {
-    background-color: white; /* White box background for the app content */
-    padding: 20px 30px; /* Adds space inside the box */
-    border-radius: 10px; /* Rounds the corners of the box */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds soft shadow around the box */
-    max-width: 400px; /* Limits the box width */
-    width: 100%; /* Box can shrink to fit small screens */
-    text-align: center; /* Centers the text inside the box */
+    background-color: white;
+    padding: 20px 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    max-width: 400px; 
+    width: 100%; 
+    text-align: center; 
 }
 
 input[type="text"] {
-    width: 80%; /* Makes the input take most of the box width */
-    padding: 10px; /* Adds space inside the input box */
-    margin-bottom: 10px; /* Adds space below the input box */
-    border: 1px solid #aaa; /* Adds a light gray border */
-    border-radius: 5px; /* Rounds the input box corners */
-    font-size: 1em; /* Sets normal readable font size */
+    width: 80%; 
+    padding: 10px;
+    margin-bottom: 10px; 
+    border: 1px solid #aaa; 
+    border-radius: 5px; 
+    font-size: 1em; 
 }
 
 button {
-    padding: 10px 20px; /* Adds space inside the button */
-    font-size: 1em; /* Normal readable font size */
-    border: none; /* Removes default border */
-    background-color: #007BFF; /* Sets blue background */
-    color: white; /* Sets text color to white */
-    border-radius: 5px; /* Rounds the button corners */
-    cursor: pointer; /* Shows hand icon when hovering */
+    padding: 10px 20px; 
+    font-size: 1em; 
+    border: none;
+    background-color: #007BFF; 
+    color: white; 
+    border-radius: 5px; 
+    cursor: pointer; 
 }
 
 button:hover {
@@ -58,16 +56,16 @@ button:hover {
 }
 
 #loading {
-    margin: 10px 0; /* Adds vertical space */
-    color: #333; /* Dark gray text */
-    font-style: italic; /* Slanted font style */
+    margin: 10px 0; 
+    color: #333;
+    font-style: italic; 
 }
 
 #weatherDisplay {
-    margin-top: 20px; /* Adds space above the weather results */
+    margin-top: 20px; 
 }
 
 #weatherDisplay img {
-    width: 100px; /* Sets image width */
-    height: 100px; /* Sets image height */
+    width: 100px; 
+    height: 100px; 
 }
